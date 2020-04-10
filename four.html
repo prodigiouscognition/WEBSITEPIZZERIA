@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzeria</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style4.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="contact-form">
+		<img src="IMAGES/2.jpg" class="pizza">
+		<h2>ENTER DETAILS</h2>
+		<form action="">
+			<p>Name</p>
+			<input type="text" placeholder="Enter Name">
+			<p>Address</p>
+			<input type="text" placeholder="Address">
+			<p>Phone no.</p>
+			<input type="tel" placeholder="Phone no">
+			<a href="index.html" ><input type="button" value="PLACE YOUR ORDER" onClick="submitClick( )"></a>
+		</form>
+	</div>
+	<script type="text/javascript">
+		function submitClick()
+		{
+			alert("Enter correct details if you have enterent something incorrect or else your order will not be delivered.");
+			alert("Cash will be collected on delivery.");
+		}
+	</script>
+</body>
+</html>

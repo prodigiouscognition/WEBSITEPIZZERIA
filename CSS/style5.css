@@ -1,0 +1,50 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body
+{
+	font-size: 20px;
+	overflow-x: hidden;
+}
+header
+{
+	background-image: url('../IMAGES/aboutus.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.ab
+{
+	font-family: 'Lobster', cursive;
+}
+.ab1
+{
+	font-family: 'Caveat', cursive;
+	font-size: 38px;
+}
+.btn
+{
+	display: inline-block;;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-full
+{
+	background-color:#000000;
+	color: 	 #F0FFFF;
+	font-weight: 900;
+	margin-right: 15px;
+	border:1px solid #000000;
+}
+.btn-full:hover
+{
+	background-color:#F0FFFF;
+	color:  #000000;
+	font-size: 120%

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzeria</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix animated tada">
+				<img src="IMAGES/six.jpg" class="logo">
+				<ul class="main-nav animated tada" id="check-class" >
+					<li><a href="five.html">About Us</a></li>
+					<li><a href="one.html">Contact Us</a></li>
+					<li><a href="two.html">Sign In</a></li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+		<div class="main-content-header heartBeat">
+		<h1>WELCOME TO <span class="colorchange">PIZZERIA</span>!<br>HAVE THE LOVE TRIANGLE YOU CRAVED FOR.</h1>
+		<a href="three.html" class="btn btn-full" onClick="submitClick( )">Order Here</a>
+	    </div>
+	</header>
+	
+	<script type="text/javascript">
+		function slideshow()
+		{
+			var x=document.getElementById('check-class');
+			if (x.style.display==="none") 
+			{
+				x.style.display="block";
+			}
+			else
+			{
+				x.style.display="none";
+			}
+		}
+		function submitClick()
+		{
+			alert("Click on the book that appears in the next page and your order will be recorded.");
+		}
+	</script>
+</body>
+</html>
